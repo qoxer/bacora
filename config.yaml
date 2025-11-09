@@ -1,0 +1,12 @@
+input_dir: "input"
+output_dir: "output"
+container_ext: ".uni.crypto"
+
+pbkdf2_iterations: 200000
+salt_len: 16
+iv_len: 12
+tag_len: 16
+key_len: 32
+
+kdf_digest: "sha256"
+cipher: "aes-256-gcm"
